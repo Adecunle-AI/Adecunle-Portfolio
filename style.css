@@ -88,12 +88,13 @@ nav ul li a { color: #fff;
                 max-width: 1200px; 
                 margin: 0 auto; } 
 
-.project-card { background-color: #fff; 
-               border-radius: 5px; 
-               box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-               overflow: hidden; } 
+.project-card { border: 1px solid #ccc;
+              background-color: #f8f8f8;
+              padding: 20px;
+              margin-bottom: 20px;
+              border-radius: 8px; } 
 
-.project-card img { width: 100%; 
+.project-card img { width: 50%; 
                    display: block; 
                    height: auto; } 
 
@@ -104,6 +105,13 @@ nav ul li a { color: #fff;
 .project-card p { padding: 0 15px 15px; 
                  font-size: 1rem; 
                  line-height: 1.4; } 
+
+.project-card a { color: #4a148c;
+                  font-weight: bold;
+                  text-decoration: none;
+                  margin-right: 10px; }
+
+.project-card a:hover { text-decoration: underline; }
 
 .project-links { padding: 15px; 
                 display: flex; 
@@ -145,7 +153,6 @@ footer { background-color: #333;
         bottom: 0; 
         width: 100%; } 
 
-/* Responsive Design */ 
 @media (max-width: 768px) {
   
   nav ul { flex-direction: column; 
