@@ -96,7 +96,7 @@ nav ul li a { color: #fff;
 
 .project-card img { width: 50%; 
                    display: block; 
-                   height: auto; } 
+                   height: 35%; } 
 
 .project-card h3 { padding: 15px; 
                   margin-bottom: 0; 
